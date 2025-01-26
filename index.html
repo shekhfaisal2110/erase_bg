@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erase.bg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="logo">
+        <img src="./img/capcut.svg" width="35px" style="color: aliceblue; margin-top: 4px;" alt="">
+        <h1>Erase.bg</h1>
+    </div>
+
+    <div class="main">
+        <div class="style1">
+            <div class="img">
+                <div class="image1">
+                    <img src="./img/thor.jpeg" id="withImg" alt="">
+                </div>
+                <div class="image2">
+                    <img src="./img/thor-removebg-preview.png" id="withoutImg" alt="">
+                </div>
+            </div>
+            <div class="text">
+                Remove Image Background & Download in PNG
+            </div>
+        </div>
+
+        <div class="style2">
+            <div class="uploadImg">
+                <div class="innerUploadImg">
+                    <img src="" alt="" id="inputImg">
+                    <input type="file" id="filePicker" hidden>
+                    <i class="fa-solid fa-plus icon" style="width: 30px; color: aliceblue;"></i>
+                    <span class="span">Upload Image</span>
+                </div>
+                <button id="uploadBtn">
+                    Upload
+                </button>
+            </div>
+            <img src="./img/loading.webp" alt="" id="loading" width="100px">
+        </div>
+        <div class="result">
+            <div class="mainbox">
+                <div class="resultImg1">
+                    <img src="" alt="">
+                </div>
+                <div class="resultImg2">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="btn">
+                <button id="Download">Download in PNG</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
